@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Jamalofski/pdfkiln/releases/download/1.1.0/pdfkiln-1.1.0-windows-x64.zip",
+      "url": "https://github.com/pdfkiln/pdfkiln/releases/download/1.1.0/pdfkiln-1.1.0-windows-x64.zip",
       "hash": "be4ef7c7e7b34b486202cdbb019faf145816e562f58ea8cff596caf2fc1c99de"
     }
   },
@@ -16,12 +16,12 @@
     "bin\\pdfkiln.exe"
   ],
   "checkver": {
-    "github": "https://github.com/Jamalofski/pdfkiln"
+    "github": "https://github.com/pdfkiln/pdfkiln"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Jamalofski/pdfkiln/releases/download/$version/pdfkiln-$version-windows-x64.zip"
+        "url": "https://github.com/pdfkiln/pdfkiln/releases/download/$version/pdfkiln-$version-windows-x64.zip"
       }
     },
     "hash": {
